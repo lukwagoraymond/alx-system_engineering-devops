@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# This script is displaying "Holberton School" 10 times
+# Bash script that displays lines containing the bash word
 # shellcheck disable=SC2009
 ps -f --forest | grep bash
