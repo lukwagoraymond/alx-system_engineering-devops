@@ -27,7 +27,7 @@ What you should learn from this project:
 * Write a Bash script that displays all active IPv4 IPs on the machine it’s executed on.
 
 
-### [2. Port listening on localhost](./4 port_listening_on_localhost)
+### [2. Port listening on localhost](./4-port_listening_on_localhost)
 * Write a Bash script that listens on port 98 on localhost.
 
 ---
