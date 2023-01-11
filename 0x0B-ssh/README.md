@@ -17,6 +17,7 @@ Read or watch:
 * [IETF RFC 4251 - Description of the SSH Protocol](https://www.ietf.org/rfc/rfc4251.txt)
 * [Internet Engineering Task Force](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force)
 * [Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)
+* [SSH Cheat Sheet](https://gist.github.com/bradtraversy/f03df587f2323b50beb4250520089a9e)
 
 ---
 ## Learning Objectives:bulb:
@@ -44,7 +45,7 @@ What you should learn from this project:
 Share your SSH client configuration in your answer file.
 
 
-### [3. Let me in!](./4-puppet_ssh_config.pp)
+### [4. Let me in!](./100-puppet_ssh_config.pp)
 * Now that you have successfully connected to your server, we would also like to join the party.
 
 
