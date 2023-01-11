@@ -10,5 +10,5 @@ file_line { 'replace passwordAuthentication':
 file_line { 'add private key':
     ensure => 'present',
     path   => '/etc/ssh/ssh_config',
-    line   => 'IndentityFile ~/.ssh/school',
+    line   => 'IdentityFile ~/.ssh/school',
 }
