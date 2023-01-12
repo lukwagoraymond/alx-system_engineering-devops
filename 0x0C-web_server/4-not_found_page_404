@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
 # Configures new Ubuntu machine to respect above requirements
-apt-get update
-apt-get -y install nginx
-ufw allow 'Nginx HTTP'
+sudo apt-get update
+sudo apt-get -y install nginx
+sudo ufw allow 'Nginx HTTP'
 
 # code to redirect to YouTube site (Ex. redirect_me to www.youtube.com)
-echo 'Hello World!' > /var/www/html/index.html
+echo 'Hello World!' | sudo tee /var/www/html/index.html
 newString="server_name _;\n\trewrite ^\/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;"
-sed -i "s/server_name _;/$newString/" /etc/nginx/sites-enabled/default
+sudo sed -i "s/server_name _;/$newString/" /etc/nginx/sites-enabled/default
 
 # code to create error page and add a redirect for error 404
-echo "Ceci n'est pas une page" > /var/www/html/404.html
+echo "Ceci n'est pas une page" | sudo tee /var/www/html/404.html
 newStringTwo="listen 80 default_server;\n\terror_page 404 \/404.html;\n\tlocation = \/404.html {\n\t\troot \/var\/www\/html;\n\t\tinternal;\n\t}"
 sudo sed -i "s/listen 80 default_server;/$newStringTwo/" /etc/nginx/sites-enabled/default
 
 # restart the server
-service nginx restart
+sudo service nginx restart
