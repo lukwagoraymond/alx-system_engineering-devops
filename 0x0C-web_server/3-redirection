@@ -2,7 +2,6 @@
 # Configures new Ubuntu machine to respect above requirements
 sudo apt-get update
 sudo apt-get -y install nginx
-ufw allow 'Nginx HTTP'
 
 # code to redirect to YouTube site (Ex. redirect_me to www.youtube.com)
 echo 'Hello World!' | sudo tee /var/www/html/index.html
