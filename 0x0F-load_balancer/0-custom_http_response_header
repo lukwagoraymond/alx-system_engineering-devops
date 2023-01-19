@@ -9,6 +9,9 @@ sudo apt-get -y install nginx
 # Configure firewall to allow request through Port 80
 sudo ufw allow 'Nginx HTTP'
 
+sudo mkdir -p /var/www/html
+sudo chmod -R 755 /var/www
+
 # Create an index static page
 echo 'Hello World!' | sudo tee /var/www/html/index.html
 
