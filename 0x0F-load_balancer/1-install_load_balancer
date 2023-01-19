@@ -5,9 +5,9 @@
 
 # Install HAproxy
 sudo apt-get -y update
-apt-get -y install haproxy=2.6.\*
+apt-get -y install haproxy
 
-# Configure frontend & Backend
+# Configure frontend & Backend=2.6.\*
 configString=\
 "
 frontend onirele-frontend
