@@ -1,0 +1,32 @@
+__libc_start_main(0x4015d4, 1, 0x7fffd0ea8328, 0x401690 <unfinished ...>
+getpid()                                         = 222405
+sprintf("x39a8f81226b3e04b", "x%lx", 0x39a8f81226b3e04b) = 17
+getenv("x39a8f81226b3e04b")                      = nil
+strlen("x39a8f81226b3e04b")                      = 17
+sprintf("=4154843413091704907 1", "=%lu %d", 4154843413091704907, 1) = 22
+strdup("x39a8f81226b3e04b=41548434130917"...)    = 0x17cb2a0
+putenv("x39a8f81226b3e04b=41548434130917"...)    = 0
+memcmp(0x6023f8, 0x602100, 22, 22)               = 0
+calloc(11, 8)                                    = 0x17cb4a0
+malloc(512)                                      = 0x17cb500
+sprintf("exec './user_authenticating_into"..., "exec '%s' "$@"", "./user_authenticating_into_serve"...) = 45
+execvp(0x602411, 0x17cb4a0, 32, 0x17cb4b8 <no return ...>
+--- Called exec() ---
+--- Called exec() ---
+__libc_start_main(0x4015d4, 1, 0x7ffd012c7ce8, 0x401690 <unfinished ...>
+getpid()                                         = 222405
+sprintf("x39a8f81226b3e04b", "x%lx", 0x39a8f81226b3e04b) = 17
+getenv("x39a8f81226b3e04b")                      = "4154843413091704907 1"
+strlen("x39a8f81226b3e04b")                      = 17
+__isoc99_sscanf(0x7ffd012c8e5f, 0x401745, 0x7ffd012c7910, 0x7ffd012c78fc) = 2
+memcmp(0x6023f8, 0x602100, 22, 22)               = 0
+calloc(11, 8)                                    = 0x245e2a0
+memcmp(0x60225a, 0x60211a, 19, 19)               = 0
+malloc(4302)                                     = 0x245e300
+memset(0x245e300, ' ', 4096)                     = 0x245e300
+memcpy(0x245f300, "#!/bin/sh\n\n(\necho 'EHLO ismtpd00"..., 206) = 0x245f300
+execvp(0x602411, 0x245e2a0, 32, 0x245e2b8 <no return ...>
+--- Called exec() ---
+--- SIGCHLD (Child exited) ---
+--- SIGCHLD (Child exited) ---
++++ exited (status 1) +++
