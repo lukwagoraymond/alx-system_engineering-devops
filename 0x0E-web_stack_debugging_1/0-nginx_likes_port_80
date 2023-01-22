@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Problem the /etc/nginx/sites-available/default and /etc/nginx/sites-enabled/default are not linked
+# Secondly, the /etc/nginx/sites-enabled/default listens on Port 8080
+# which is for a proxy server and not http.
+
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+service nginx restart
