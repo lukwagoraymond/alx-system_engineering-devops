@@ -7,6 +7,8 @@ Read or watch:
 * [HAProxy SSL termination on Ubuntu16.04](https://devops.ionos.com/tutorials/install-and-configure-haproxy-load-balancer-on-ubuntu-1604/)
 * [SSL termination](https://en.wikipedia.org/wiki/TLS_termination_proxy)
 * [Bash function](https://tldp.org/LDP/abs/html/complexfunct.html)
+* [How To Use Certbot Standalone Mode to Retrieve Let's Encrypt SSL Certificates on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-use-certbot-standalone-mode-to-retrieve-let-s-encrypt-ssl-certificates-on-ubuntu-16-04)
+
 
 ---
 
