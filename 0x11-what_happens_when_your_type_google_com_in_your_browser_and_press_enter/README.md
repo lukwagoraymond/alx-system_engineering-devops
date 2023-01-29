@@ -1,4 +1,4 @@
-# 0x11. What happens when you type holbertonschool.com in your browser and press Enter
+# 0x11. What happens when you type google.com in your browser and press Enter
 
 ## Resources:books:
 Read or watch:
@@ -14,7 +14,7 @@ What you should learn from this project:
 
 
 ### [1. Everything's better with a pretty diagram](./1-what_happen_when_diagram)
-* Add a schema to your blog post illustrating the flow of the request created when you type https://www.holbertonschool.com in your browser and press Enter.
+* Add a schema to your blog post illustrating the flow of the request created when you type https://www.google.com in your browser and press Enter.
 
 
 ### [2. Contribute!](./2-contribution-to_what-happens-when_github_answer)
