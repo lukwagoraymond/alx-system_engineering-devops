@@ -1,4 +1,4 @@
-!#/usr/bin/env bash
+#!/usr/bin/env bash
 # Script fixes web server to run Nginx on nginx user listening on port 8080
 
 # Give read and write permissions to owner to config file
